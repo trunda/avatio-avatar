@@ -41,7 +41,6 @@
       transform="translate(-23.449 -25.821)"
     ></path>
   </g>
-  <!-- <component :is="typeComponent" :color="color"/> -->
 </template>
 
 <script>

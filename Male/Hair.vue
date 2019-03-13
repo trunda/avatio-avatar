@@ -22,7 +22,7 @@ import TypeD from "./Hair/TypeD";
 import TypeE from "./Hair/TypeE";
 import TypeF from "./Hair/TypeF";
 import TypeG from "./Hair/TypeG";
-import UseColor from '~/Mixins/UseColor'
+import UseColor from '../Mixins/UseColor'
 
 export default {
   mixins: [UseColor],

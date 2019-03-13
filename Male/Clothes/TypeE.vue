@@ -10,7 +10,6 @@
 </template>
 
 <script>
-  import Color from "color";
 
   export default {
     props: {
@@ -22,9 +21,6 @@
         type: String,
         default: "#282525"
       }
-    },
-    created() {
-      this.$color = Color;
     }
   };
 </script>

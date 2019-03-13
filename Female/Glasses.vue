@@ -8,7 +8,7 @@ import TypeB from "../Common/Glasses/TypeB";
 import TypeC from "../Common/Glasses/TypeC";
 import TypeD from "../Common/Glasses/TypeD";
 import TypeFemaleA from "./Glasses/TypeA";
-import UseColor from "~/Mixins/UseColor";
+import UseColor from "../Mixins/UseColor";
 
 export default {
   mixins: [UseColor],

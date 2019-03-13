@@ -14,7 +14,7 @@
 </template>
 
 <script>
-  import UseColor from '~/Mixins/UseColor'
+  import UseColor from '../../Mixins/UseColor'
 
   export default {
     mixins: [UseColor],

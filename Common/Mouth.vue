@@ -7,7 +7,7 @@
   import TypeB from "./Mouth/TypeB";
   import TypeC from "./Mouth/TypeC";
   import TypeD from "./Mouth/TypeD";
-  import UseColor from "~/Mixins/UseColor";
+  import UseColor from "../Mixins/UseColor";
 
   export default {
     mixins: [UseColor],

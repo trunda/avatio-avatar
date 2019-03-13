@@ -1,27 +1,28 @@
 <template>
-  <svg data-name="avatar" viewBox="0 0 142.841 137.643" >
+  <svg data-name="avatar" viewBox="0 0 142.841 137.643">
     <title>Avatar</title>
-    <component v-for="(component, id) in usableComponents" :key="id" :is="component" v-bind="optionsFor(component)"></component>
+    <component v-for="(component, id) in usableComponents" :key="id" :is="component"
+               v-bind="optionsFor(component)"></component>
   </svg>
 </template>
 
 <script>
-  import Eyes from "~/components/Avatar/Common/Eyes.vue";
-  import Nose from "~/components/Avatar/Common/Nose.vue";
-  import Mouth from "~/components/Avatar/Common/Mouth.vue";
+  import Eyes from "./Common/Eyes.vue";
+  import Nose from "./Common/Nose.vue";
+  import Mouth from "./Common/Mouth.vue";
 
-  import FemaleHeadShape from "~/components/Avatar/Female/HeadShape.vue";
-  import FemaleHair from "~/components/Avatar/Female/Hair.vue";
-  import FemaleGlasses from "~/components/Avatar/Female/Glasses.vue";
-  import FemaleClothes from "~/components/Avatar/Female/Clothes.vue";
-  import FemaleAccessory from "~/components/Avatar/Female/Accessory.vue";
+  import FemaleHeadShape from "./Female/HeadShape.vue";
+  import FemaleHair from "./Female/Hair.vue";
+  import FemaleGlasses from "./Female/Glasses.vue";
+  import FemaleClothes from "./Female/Clothes.vue";
+  import FemaleAccessory from "./Female/Accessory.vue";
 
-  import MaleHeadShape from "~/components/Avatar/Male/HeadShape.vue";
-  import MaleHair from "~/components/Avatar/Male/Hair.vue";
-  import MaleGlasses from "~/components/Avatar/Male/Glasses.vue";
-  import MaleAccessory from "~/components/Avatar/Male/Accessory.vue";
-  import MaleClothes from "~/components/Avatar/Male/Clothes.vue";
-  import MaleFacialHair from "~/components/Avatar/Male/FacialHair.vue";
+  import MaleHeadShape from "./Male/HeadShape.vue";
+  import MaleHair from "./Male/Hair.vue";
+  import MaleGlasses from "./Male/Glasses.vue";
+  import MaleAccessory from "./Male/Accessory.vue";
+  import MaleClothes from "./Male/Clothes.vue";
+  import MaleFacialHair from "./Male/FacialHair.vue";
 
   import _ from 'lodash';
   import color from 'color';
@@ -68,7 +69,6 @@
             }
 
             if (variant.colorFrom) {
-              console.log(variant.colorFrom);
               result['color'] = this.options[variant.colorFrom]['color'];
             }
           }

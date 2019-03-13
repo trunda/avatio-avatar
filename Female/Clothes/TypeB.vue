@@ -9,8 +9,6 @@
 </template>
 
 <script>
-import Color from "color";
-
 export default {
   props: {
     color: {

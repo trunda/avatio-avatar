@@ -9,7 +9,7 @@
   import TypeD from "./FacialHair/TypeD";
   import TypeE from "./FacialHair/TypeE";
   import TypeF from "./FacialHair/TypeA";
-  import UseColor from "~/Mixins/UseColor";
+  import UseColor from "../Mixins/UseColor";
 
   export default {
     mixins: [UseColor],

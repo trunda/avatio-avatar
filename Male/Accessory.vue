@@ -5,7 +5,7 @@
 <script>
 import TypeA from "../Common/Accessory/TypeA";
 import TypeB from "../Common/Accessory/TypeB";
-import UseColor from "@/Mixins/UseColor";
+import UseColor from "../Mixins/UseColor";
 
 export default {
   mixins: [UseColor],
