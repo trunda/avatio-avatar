@@ -1,0 +1,10 @@
+{
+  "name": "avatio-avatar",
+  "version": "1.0.0",
+  "description": "VueJS 2.0. component to display SVG avatar",
+  "author": "Jakub Truneček",
+  "private": false,
+  "dependencies": {
+    "color": "^3.1.0"
+  }
+}

@@ -1,0 +1,27 @@
+<template>
+  <g id="b109d64a-57cd-4c82-8b5b-758c5c322e7f" data-name="Black T-sirt">
+    <path
+      d="M138.463,157.377c-16.551,7.56-70.551,7.56-87.721,0-.51-.22,2.8-8.4,3.849-11.909s5.141-4.2,5.141-4.2,16.609-3.27,18.31-4.209c.339-.191.7-.411,1.08-.651,2.92,3.69,9.69,4.25,15.5,4.25,5.71,0,12.55-.62,15.48-4.24h.01c.36.24.71.46,1.04.641,1.7.939,18.32,4.209,18.32,4.209s4.09.7,5.141,4.2S138.963,157.147,138.463,157.377Z"
+      transform="translate(-23.449 -25.821)" :fill="color"></path>
+  </g>
+</template>
+
+<script>
+  import Color from "color";
+
+  export default {
+    props: {
+      color: {
+        type: String,
+        default: "#282525"
+      },
+      secondaryColor: {
+        type: String,
+        default: "#282525"
+      }
+    },
+    created() {
+      this.$color = Color;
+    }
+  };
+</script>
