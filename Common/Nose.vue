@@ -4,20 +4,20 @@
       :fill="color"
       d="M99.744,101.563a.271.271,0,0,0,.1-.314.237.237,0,0,0-.268-.161,25.286,25.286,0,0,1-8.474.185.243.243,0,0,0-.26.173.272.272,0,0,0,.1.307,11.793,11.793,0,0,0,4.2,1.612C96.067,103.606,98.49,102.388,99.744,101.563Z"
       transform="translate(-23.449 -25.821)"
-    />
+    ></path>
   </g>
   <!-- <component :is="typeComponent" :color="color"/> -->
 </template>
 
 <script>
-import Color from "color";
+  import Color from "color";
 
-export default {
-  props: {
-    color: {
-      type: String,
-      default: "#ef843b"
+  export default {
+    props: {
+      color: {
+        type: String,
+        default: "#ef843b"
+      }
     }
-  }
-};
+  };
 </script>

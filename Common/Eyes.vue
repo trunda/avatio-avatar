@@ -23,7 +23,7 @@
   import TypeB from "./Eyes/TypeB";
   import TypeC from "./Eyes/TypeC";
   import TypeD from "./Eyes/TypeD";
-    import Color from 'color';
+  import Color from 'color';
 
   export default {
     components: {TypeA, TypeB, TypeC, TypeD},
