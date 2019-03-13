@@ -1,10 +1,28 @@
 {
   "name": "avatio-avatar",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "VueJS 2.0. component to display SVG avatar",
   "author": "Jakub Truneček",
   "private": false,
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trunda/avatio-avatar.git"
+  },
   "dependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
     "color": "^3.1.0"
+  },
+  "scripts": {
+    "build": "webpack --config ./build/webpack.config.js --progress --hide-modules"
+  },
+  "devDependencies": {
+    "babel-loader": "^8.0.5",
+    "uglifyjs-webpack-plugin": "^2.1.2",
+    "vue-loader": "^15.7.0",
+    "vue-template-compiler": "^2.6.8",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3"
   }
 }
