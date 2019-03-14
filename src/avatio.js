@@ -318,7 +318,7 @@ export default {
         values: [
           {name: "No glasses", value: "A"},
           {name: "Big", value: "B"},
-          {name: "Elegant", value: "FemaleA"},
+          {name: "Elegant", value: "MaleA"},
           {name: "Sunglasses", value: "C"},
           {name: "Oldschool", value: "D"},
         ],
