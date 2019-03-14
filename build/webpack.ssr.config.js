@@ -11,7 +11,8 @@ module.exports = {
         publicPath: '/dist/',
         library: 'avatio-avatar',
         libraryTarget: 'umd',
-        filename: 'avatar.js'
+        umdNamedDefine: true,
+        filename: 'ssr.js'
     },
     optimization: {
         minimizer: [

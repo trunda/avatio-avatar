@@ -1,5 +1,5 @@
 <template>
-  <svg data-name="avatar" viewBox="0 0 142.841 137.643">
+  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 142.841 137.643">
     <title>Avatar</title>
     <component v-for="(component, id) in usableComponents" :key="id" :is="component"
                v-bind="optionsFor(component)"></component>
@@ -7,22 +7,22 @@
 </template>
 
 <script>
-  import Eyes from "./src/Common/Eyes.vue";
-  import Nose from "./src/Common/Nose.vue";
-  import Mouth from "./src/Common/Mouth.vue";
+  import Eyes from "./Common/Eyes.vue";
+  import Nose from "./Common/Nose.vue";
+  import Mouth from "./Common/Mouth.vue";
 
-  import FemaleHeadShape from "./src/Female/HeadShape.vue";
-  import FemaleHair from "./src/Female/Hair.vue";
-  import FemaleGlasses from "./src/Female/Glasses.vue";
-  import FemaleClothes from "./src/Female/Clothes.vue";
-  import FemaleAccessory from "./src/Female/Accessory.vue";
+  import FemaleHeadShape from "./Female/HeadShape.vue";
+  import FemaleHair from "./Female/Hair.vue";
+  import FemaleGlasses from "./Female/Glasses.vue";
+  import FemaleClothes from "./Female/Clothes.vue";
+  import FemaleAccessory from "./Female/Accessory.vue";
 
-  import MaleHeadShape from "./src/Male/HeadShape.vue";
-  import MaleHair from "./src/Male/Hair.vue";
-  import MaleGlasses from "./src/Male/Glasses.vue";
-  import MaleAccessory from "./src/Male/Accessory.vue";
-  import MaleClothes from "./src/Male/Clothes.vue";
-  import MaleFacialHair from "./src/Male/FacialHair.vue";
+  import MaleHeadShape from "./Male/HeadShape.vue";
+  import MaleHair from "./Male/Hair.vue";
+  import MaleGlasses from "./Male/Glasses.vue";
+  import MaleAccessory from "./Male/Accessory.vue";
+  import MaleClothes from "./Male/Clothes.vue";
+  import MaleFacialHair from "./Male/FacialHair.vue";
 
   import _ from 'lodash';
   import color from 'color';

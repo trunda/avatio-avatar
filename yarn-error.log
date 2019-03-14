@@ -32,7 +32,7 @@ npm manifest:
       "color": "^3.1.0"
     },
     "scripts": {
-      "build": "webpack --config ./build/webpack.config.js --progress --hide-modules",
+      "build": "webpack --config ./build/webpack.ssr.config.js --progress --hide-modules",
     },
     "devDependencies": {
       "uglifyjs-webpack-plugin": "^2.1.2",
