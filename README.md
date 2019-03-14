@@ -1,4 +1,4 @@
-#Avatio Avatar
+# Avatio Avatar
 
 VueJS 2 component to display SVG avatar.
 
