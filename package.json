@@ -1,8 +1,8 @@
 {
   "name": "avatio-avatar",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "VueJS 2.0. component to display SVG avatar",
-  "author": "Jakub Truneček",
+  "author": "Jakub Truneček <jakub.trunecek@gmail.com>",
   "private": false,
   "main": "dist/index.js",
   "repository": {
@@ -14,6 +14,12 @@
     "@babel/preset-env": "^7.3.4",
     "color": "^3.1.0"
   },
+  "keywords": [
+    "vuejs",
+    "avatar",
+    "svg",
+    "component"
+  ],
   "scripts": {
     "build:ssr": "webpack --config ./build/webpack.ssr.config.js --progress --hide-modules",
     "build:client": "webpack --config ./build/webpack.client.config.js --progress --hide-modules",
